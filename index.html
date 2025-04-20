@@ -2,9 +2,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Meal DB API Call</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>Meal DB</h1>
+  <p>Welcome to the Meal Database! Search for delicious recipes from around the world.</p>
   
+  <div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search for a meal...">
+    <button onclick="connect()" id="searchBtn">Search</button>
+  </div>
+  
+  <div id="displayArea">
+    <!-- Meal cards will be displayed here -->
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
